@@ -287,8 +287,12 @@ header {
 	padding: 9px;
 }
 
+#services-background {
+	background-image: url("../images/carlot.png");
+}
+
 #newcars {
-	background-image:url('../Project/service page imgs/newcarsign.webp');
+	background-image:url('../images/newcarsign.webp');
 	background-size: 700px 400px;
 	background-repeat: no-repeat;
 	width: 700px;
@@ -296,7 +300,7 @@ header {
 	text-align: center;
 }	
 #usedcars {
-	background-image:url('../Project/service page imgs/usedcar.jpeg');
+	background-image:url('../images/usedcar.jpeg');
 	background-size: 700px 400px;
 	background-repeat: no-repeat;
 	width: 700px;
@@ -358,7 +362,7 @@ header {
 	font-size: 20px;
 	background-color: white;
 	border-radius: 30px;
-	height: 180px;
+	height: 190px;
 }
 #add_services {
 	font-size: 24px;
@@ -374,7 +378,7 @@ header {
 	background-color: white;
 	border-radius: 30px;
 	width: 175px;
-	position: relative;
+	height: 75%;
 	top: -23px;
 }
 #footer {
