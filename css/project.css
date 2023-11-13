@@ -288,7 +288,7 @@ header {
 }
 
 #newcars {
-	background-image:url('../images/newcarsign.webp');
+	background-image:url('../Project/service page imgs/newcarsign.webp');
 	background-size: 700px 400px;
 	background-repeat: no-repeat;
 	width: 700px;
@@ -296,7 +296,7 @@ header {
 	text-align: center;
 }	
 #usedcars {
-	background-image:url('../images/usedcar.jpeg');
+	background-image:url('../Project/service page imgs/usedcar.jpeg');
 	background-size: 700px 400px;
 	background-repeat: no-repeat;
 	width: 700px;
@@ -321,24 +321,139 @@ header {
 #loancal {
 	padding: 10px ;
 	font-size: 20px;
-}
-fieldset {
 	background-color: lightgray;
+	border-radius: 30px;
+	
+}
+#fieldset1 {
+	background-color: black;
+	padding: 36px;
+	border-radius: 50px;
+}
+#fieldset2 {
+	background-color: black;
+	padding: 33px;
+	border-style:dashed;
+	border-color:yellow;
+	border-radius: 40px;
+}
+#loancaltitle {
+	background-color:blue;
+	color: white;
+	border-radius: 30px;
+}
+#calculation {
+	background-color: white;
+	border-radius: 30px;
+	height: 80px;
+}
+#payment {
+	color: white;
+	background-color: green;
+	border-radius: 30px;
+	padding: 10px;
+}
+#xtraservices {
+	padding: 10px ;
+	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	height: 180px;
 }
 #add_services {
 	font-size: 24px;
 	font-weight: bold;
+	background-color: blue;
+	border-radius: 30px;
+	color: white;
 }
 #service_list {
 	text-align: left;
-	margin-left: 350px;
+	margin-left: 300px;
 	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	width: 175px;
+	position: relative;
+	top: -23px;
 }
-#foot {
-	background-color: gray;
+#footer {
+	background-color: dimgray;
+
 }
 #foot_text {
 	color: white;
 	font-size: 20px;
+	position: relative;
 	text-align: center;
+	bottom: 75px;
+	font-style: italic;
 }
+
+#company {
+	color:white;
+	font-size:18px;
+	padding-left: 70px;
+	position: absolute;
+	width: 200px;
+}
+#help {
+	color:white;
+	font-size:18px;
+	padding-left: 70px;
+	position: relative;
+	width: 100px;
+	left: 175px;
+}
+#link {
+	color: lightblue
+}
+
+/* Angel CSS */
+.column {
+	margin-top: 15px;
+	float: left;
+	width: 40%;
+	height: 175px; 
+  }
+	.social_media{
+	margin-top: 15px;
+	float: right;
+	 width: 17.5%;
+	height : 1050px;
+  }
+	.row:after{
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .button{
+	text-align: center;
+	border: none;
+	padding: 5px 20px;
+	
+  }
+  
+  #info {
+	border-collapse: separate;
+	background-color: #FAA0A0;
+	width: 75%;
+	height: 55px;
+  }
+  
+  #end_options{
+	margin-top: 30px;
+	width: 35%;
+	height: 60px;
+	font-size: 25px;
+	display: inline-block;
+  }
+  #dent {
+	  border: 1px solid white;
+  }
+  #img_cars {
+   margin-top: 5px;
+   width: 50%;
+	height: 165px;
+  }
