@@ -256,6 +256,7 @@ header {
     background-image:url('../images/background.png'); 
     background-repeat: repeat-y; 
     background-position: center ;
+	margin: auto;
 }
 .newcar-center{
     text-align: center;
