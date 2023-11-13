@@ -462,3 +462,37 @@ header {
    width: 50%;
 	height: 165px;
   }
+
+  /*Joshua*/
+  /* Style for the about_company section */
+.about_company {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the comp_info divs */
+#comp_info {
+    margin-bottom: 20px;
+}
+
+#comp_info p {
+    line-height: 1.5;
+}
+
+/* Style for the Biography of Our Founder section */
+#bio {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#bio p {
+    line-height: 1.5;
+}
