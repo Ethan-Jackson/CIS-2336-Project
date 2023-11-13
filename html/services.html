@@ -1,0 +1,114 @@
+<html>
+    <title>Services</title>
+    <head>
+        <link rel="stylesheet" href="../css/project.css">
+    </head>
+    <body>
+        <h1> You have navigated to Services</h1>
+        <table>
+            <tr>
+                <th>
+                    <!-- Intentionally left empty because CSS-->
+                </th>
+                <th id = "title_cell">
+                    <h1 id="main_title">A Really Good Car Dealership Name</h1>
+                </th>
+                <th id = "logo_cell">
+                    <img src = "car_dealership_logo_PLACEHOLDER.jpg" id="dealer_logo">
+                </th>
+                <th>
+                    <!-- Intentionally left empty because CSS-->
+                </th>
+            </tr>
+            
+        </table>		<!-- Navigation Bar -->
+        <table class = "center">
+            <tr>
+                <th class = "navi_cell">
+                    <a href = "about.html">About </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "about_Us.html">About Us </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "meet_The_Team.html">Meet the Team </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "careers.html">Careers </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "services.html">Services </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "new_Cars.html">New Cars </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "used_Cars.html">Used Cars </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "looking_To_Sell.html">Looking to Sell? </a>
+                </th>
+                <th class = "navi_cell">
+                    <a href = "contact_Us.html">Contact Us </a>
+                </th>
+            </tr>
+        </table>
+		<br> <br>
+		<fieldset>
+				<table id='services' border='1'>
+					<!-- Creating Button for New Cars Page-->
+					
+					<tr>
+					<td>
+						<a href="new_Cars.html">
+							<button id='newcars'></button>
+						</a>
+					</td>
+						<!-- Creating Button for Used Cars Page-->
+					<td>
+						<a href="used_Cars.html">
+							<button id='usedcars'></button>
+						</a>
+					
+					</td>
+					
+					</tr>
+					
+					<tr>
+						<td>
+							<div id='loancal'> <!-- Loan Calculator-->
+								<h3> Loan Calculator </h3>
+								<form>
+								Loan Amount: $<input id='amount' type='number' min='1' max='1000000' onchange='results()'> <br>
+								Rate of Interest: %<input id='int_rate' type='number' min='0' max='100' value='10' step='0.1' onchange='results()'> <br>
+								Months to Pay: <input id='months' type='number' min='1' max='300' value='1' step='1' onchange='results()'> <br>
+								
+								<h4 id='payment'></h4>
+								</form>
+							</div>
+						</td>
+						<!-- List of Other Services-->
+						<td>
+							<p id='add_services'> Services We Provide </p>
+							
+							<ul id='service_list'>
+								<li> Car Wash</li>
+								<li> Maintenance and Repairs</li>
+								<li> Damage Repairs</li>
+								<li> Oil Change</li>
+								<li> Tire Replacements</li>
+							</ul>
+						</td>
+					</tr>
+					
+				</table>
+			
+		</fieldset>
+		
+		<footer id='foot'><br><br>
+			<p id='foot_text'> Created by Deaundre Houston </p> <br> <br>
+		</footer>
+    </body>
+	<script src='project.js'>
+	</script>
+</html>

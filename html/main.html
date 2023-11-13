@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>Road Runner Dealership</title>
+        <link rel="stylesheet" href="../css/project.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="../js/project.js"></script>
+    </head>
+    <header style="margin: 0;">
+        <div class="mover-left">
+            <button class="car-left">
+                <img class = "road-runner" src="../images/road_convert.png">
+            </button>
+        </div>
+        <nav>
+            <ul class = "nav-bar">
+                <li>
+                    <a href = "about_us.html"> <button>About Us</button></a>
+                </li>
+                <li>
+                    <a href = "services.html"> <button>Services</button></a>
+                </li>
+                <li>
+                    <a href = "contact_us.html"> <button>Contact Us</button></a>
+                </li>
+                <li>
+                    <a href="new_Cars.html"><button>Find Your Car Today</button></a>
+                </li>
+                <li>
+                    <a href="looking_To_Sell.html"><button>Instant Cash Offer</button></a>
+                </li>
+                <li>
+                    <a href = "about.html"><button>Need help?</button></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mover-right">
+            <button class="car-right">
+                <img class = "red-car" src="../images/car_head1.png">
+            </button>
+        </div>
+    </header>
+
+    <body id="home-body" onload="imgScroll()">
+        <div class="container">
+            <div id="dealer-header">
+                <h1>Welcome to the Road Runner Dealership</h1>
+                <h3>"Drive with pride, find your ride at our side!"</h3>
+                <br><br><br>
+                <div style="width: 100%; text-align: left;">
+                    <h3>Describe your dream car...</h3>
+                    <br>
+                </div>
+                <form style="background-color: rgba(0,0,0,0); border-width: 0;">
+                    Make:
+                    <select class = "car-select">
+                        <option value="" disabled selected>Make</option>
+                        <option>Ford</option>
+                        <option>Honda</option>
+                        <option>Chevrolet</option>
+                        <option>Audi</option>
+                        <option>Nissan</option>
+                        <option>Dodge</option>
+                        <option>Jeep</option>
+                        <option>GMC</option>                       </option>
+                        <option>Buick</option>
+                    </select>
+                    Year:
+                    <select class = "car-select">
+                        <option value="" disabled selected>Year</option>
+                        <option>Before 1990</option>
+                        <option>1990 - 2000</option>
+                        <option>2001 - 2005</option>
+                        <option>2006 - 2010</option>
+                        <option>2011 - 2015</option>
+                        <option>2015 - 2020</option>
+                        <option>2021 - Present</option>
+                    </select>
+                    Price:
+                    <select id="car_price" class = "car-select">
+                        <option value="Price" disabled selected>Price</option>
+                        <option value="less_ten">Less than $10,000</option>
+                        <option value="less_fifteen">$10,000 - $15,000</option>
+                        <option value="less_twenty">$15,001 - $20,000</option>
+                        <option value="great_twenty">Greater than $20,000</option>
+                    </select>
+                    <br><br>
+                    <button id="submit-car" onclick="car_submission()"> Find Your Car! </button>
+                    <input type="reset" value="Reset"></input>
+                </form>
+            </div>
+            <div style="background-color: rgba(0,0,0,0.6); width: 60%; margin: auto; border-radius: 5px">
+                <table style="width: 100%; color: white;">
+                    <th style="width: 50%">
+                        <h2> Featured Cars:</h2>
+                        <br>
+                        <div id="container-img">
+                            <img src="../images/img-wheel05.jpg" id="scrolling-img">
+                        </div>
+                    </th>
+                    <th style="width: 50%">
+                        At Road Runner Dealership, your satisfaction is our top priority. If you need to get in contact with an associate for any of our services, feel free to contact us!
+                    </th>
+                </table>
+            </div>
+        </div>
+        <br><br><br><br>
+        <footer class="h-footer">
+            <table style="width: 100%; color: white;">
+                <tr>
+                    <td style="width: 5%;">
+                    </td> <!-- Spacer Cell to center the entire row:)-->
+                    <td>
+                        <p>Questions or concerns?<br>
+                        <a href="mailto:questions@road-runner-dealer.com">questions@road-runner-dealer.com</a></p><br>
+                    </td>
+                    <td>
+                        Serving the Houston Area since 1991
+                    </td>
+                    <td>
+                        <a href="/">Dealer Sign-in</a> <br>
+                        <a href="/">Associate Sign-in</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;">
+                    </td> <!-- Spacer Cell to center the entire row-->
+                    <td class="centered-footer">
+                                   
+                        <a href="about_Us.html">About Us</a><br>
+                    </td>
+                    <td class="centered-footer">
+                                    
+                        <a href="about.html">About</a><br>
+                    </td>
+                    <td class="centered-footer">
+                               
+                        <a href="careers.html">Careers</a><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;">
+                    </td> <!-- Spacer Cell to center the entire row-->
+                    <td class="centered-footer">
+                                   
+                        <a href="looking_To_Sell.html">Looking to Sell</a><br>
+                    </td>
+                    <td class="centered-footer">
+                                    
+                        <a href="meet_The_Team.html">Meet The Team</a><br>
+                    </td>
+                    <td class="centered-footer">
+                               
+                        <a href="new_Cars.html">New Cars</a><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;">
+                    </td> <!-- Spacer Cell to center the entire row-->
+                    <td class="centered-footer">
+                                   
+                        <a href="services.html">Services</a><br>
+                    </td>
+                    <td class="centered-footer">
+                                    
+                        <a href="main.html">Home</a><br>
+                    </td>
+                    <td class="centered-footer">
+                               
+                        <a href="used_Cars.html">Used</a><br>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>

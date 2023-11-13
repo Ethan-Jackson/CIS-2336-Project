@@ -1,75 +1,36 @@
-#dealer_logo {
-    height: 50%;
-    width: 50%;
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    padding: 30px, 10%;
+    background-color: beige;
 }
-.header_table {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#main_title {
-    text-align: center;
-}
-#logo_cell {
-    width: 20%;
-}
-#title_cell {
-    width: 20%;
-}
-.center {
-    margin-right: auto;
-    margin-left: auto;
-  }
-.navi_cell {
-    width: 5%;
-}
-#main_body {
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 90%;
-    background-color: #d9fff6;
-}
-.navi_button {
-    height: 40px;
+
+.road-button {
+    height: 100%;
     width: 100%;
-    border: none;
-    outline: none;
-    background-color: #9cc2ff;
 }
-.navi_button:hover {
-    height: 40px;
-    width: 100%;
-    border: none;
-    outline: none;
-    background-color: #5c9aff;
+
+.road-runner {
+    width: 17%;
 }
-#car_right{
-    height: 50%;
-    width: 50%;
+
+.nav-bar {
+    list-style: none;
 }
-#car_left{
-    height: 50%;
-    width: 50%;
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
 }
-.car_Prime{
-    transform:scale(0.3);
-    transform-origin:top left;
+
+.nav-bar li a:hover{
+    color: #232323;
 }
-.car_button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+
+.contact-us button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 50px;
 }
-#container {
-    width: 400px;
-    height: 100px;
-    position: relative;
-    background: transparent;
-  }
-  #mover {
-    width: 400px;
-    height: 100px;
-    position: absolute;
-    background: transparent;
-  }
