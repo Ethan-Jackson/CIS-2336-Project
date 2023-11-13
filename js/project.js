@@ -56,3 +56,7 @@ function imgScroll () {
   },
   5000);
 }
+
+function applyNow() {
+  alert("Thank you for applying, we'll contact you soon!");
+}
