@@ -233,7 +233,7 @@ header {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-image: url('Images/career-bg.png');
+    background-image: url('../images/career-bg.png');
 }
 .job-listing {
     border: 1px solid #ccc;
@@ -253,7 +253,7 @@ header {
 .new-car {
     padding: 5%; 
     font-size: x-large; 
-    background-image:url('Images/background.png'); 
+    background-image:url('../images/background.png'); 
     background-repeat: repeat-y; 
     background-position: center ;
 }
